@@ -1,1 +1,1 @@
-# odin-recipes
+This project will test my abilities and understanding of the HTML module. I will be able to create an adequate home page and able to link to other recipes within my website. I will also be using basic formatting. without CSS, to make stylistic choices for my pages
