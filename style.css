@@ -6,6 +6,10 @@ html {
 *::before,
 *::after {box-sizing: border-box;}
 
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 #recipe-list {
     display: inline-flex;
     list-style: none;
@@ -13,9 +17,10 @@ html {
 
 .artichoke-link {
     margin: 20px;
+    margin-right: 10px;
     padding-top: 20px;
     padding-bottom: 20px;
-    border: 2px solid hsl(133, 51%, 72%);
+    border: 2px solid hsl(34, 43%, 65%);
    
 }
 
@@ -24,12 +29,14 @@ html {
     height: 21px;
 }
 .artichoke-link:hover {
-    background-color: rgb(142, 207, 151);
+    background-color: hsl(34, 43%, 65%);
     
 }
 
 .tofu-link {
     margin: 20px;
+    margin-left: -8px;
+    margin-right: 10px;
     padding-top: 20px;
     padding-bottom: 20px;
     border: 2px solid rgb(235, 235, 11);
@@ -42,4 +49,22 @@ html {
 
 .tofu-link:hover {
     background-color: rgb(235, 235, 11);
+}
+
+.pesto-link {
+    margin: 20px;
+    margin-left: -8px;
+    margin-right: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: 2px solid hsl(133, 51%, 72%);
+}
+
+.pesto-link a {
+    padding: 21px;
+    height: 21px;
+}
+
+.pesto-link:hover {
+    background-color: rgb(142, 207, 151);
 }
