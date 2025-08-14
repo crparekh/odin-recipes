@@ -6,7 +6,10 @@ html {
 *::before,
 *::after {box-sizing: border-box;}
 
-#recipe-list {display: inline-flex;}
+#recipe-list {
+    display: inline-flex;
+    list-style: none;
+}
 
 .artichoke-link {
     margin: 20px;
@@ -20,7 +23,23 @@ html {
     padding: 21px;
     height: 21px;
 }
-a:hover {
+.artichoke-link:hover {
     background-color: rgb(142, 207, 151);
     
+}
+
+.tofu-link {
+    margin: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: 2px solid rgb(235, 235, 11);
+}
+
+.tofu-link a {
+    padding: 21px;
+    height: 21px;
+}
+
+.tofu-link:hover {
+    background-color: rgb(235, 235, 11);
 }
