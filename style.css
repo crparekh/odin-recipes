@@ -6,3 +6,15 @@ html {
 *::before,
 *::after {box-sizing: border-box;}
 
+#recipe-list {display: inline-flex;}
+
+.artichoke-link {
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid hsl(133, 51%, 72%);
+    
+}
+a:hover {
+    background-color: rgb(142, 207, 151);
+    padding: 20px;
+}
